@@ -1,0 +1,17 @@
+npm init : json dosyası oluşturur.
+npm init -y : otomatik oluşturur.
+npm install : json dosyasındaki bütün paketleri kurar.
+npm install [packageName] :node paketini yükler.
+npm install -g [packageName]: paketi global olarak yükler(admin yetkisi gerekir).
+npm install [packageName]@[version] :spesifik versiyonlu node paketini yükler.
+npm install [packageName] --save :node paketini yüklerve json dependecy ekler.
+npm install [packageName] --save-dev :node paketini yüklerve json developer dependecy ekler.
+npm outdated : versiyonu geçmiş paketleri gösterir.
+npm update: tüm paketleri günceller.
+npm update [packageName] :paketi günceller.
+npm root -g: kurulan paketlerin path ini gösterir.
+npm list -g: kurulan tüm paketleri bağımlılıklarıyla beraber listeler.
+npm list -g --depth=0 : kurulan paketleri sadece isimleriyle listeler.
+npm run [scriptName]: json dosyasındaki scripti çalıştırır.
+npm uninstall [packageName]: kurulan paketi kaldırır.
+npm uninstall [packageName] --no-save: kurulan paketi kaldırır ancak json daki dependency yi silmez.
