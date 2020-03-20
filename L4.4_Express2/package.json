@@ -1,0 +1,19 @@
+{
+    "name": "L4.4_express2",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index1.js",
+    "scripts": {
+        "devStart": "nodemon index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "pug": "^2.0.4"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.2"
+    }
+}
