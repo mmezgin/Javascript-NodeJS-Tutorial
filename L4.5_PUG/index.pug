@@ -1,0 +1,32 @@
+html
+    pug
+        title hi pug
+
+    body
+
+
+        -var company="eric"
+        =company
+        br
+        | business #{company.toUpperCase()}
+        hr
+        - var number=10;
+        if number%2==0
+            | number is even
+        else    
+            |number is odd
+
+        br
+        hr
+        
+
+
+        hr
+
+        =job
+        br
+        div(style="color:red ; background-color: green;")
+            | Hello #{name}
+        br
+        include test.pug
+        
